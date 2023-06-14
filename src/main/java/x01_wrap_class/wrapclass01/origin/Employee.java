@@ -1,4 +1,4 @@
-package x01_wrap_class.wrapclass01.oneway;
+package x01_wrap_class.wrapclass01.origin;
 
 import java.util.List;
 
@@ -12,5 +12,5 @@ public class Employee {
         PayDispatcher.dispatcherPay(this, amount);
     }
 
-
+//TO DO：新增支付log记录
 }

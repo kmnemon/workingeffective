@@ -13,6 +13,7 @@ public class RGHConnectionImpl implements RGHConnection {
 
     @Override
     public ACTIOReport ACTIOReportFor(int customerID){
+        //connect to remote server to get report
         return new ACTIOReport();
     }
 

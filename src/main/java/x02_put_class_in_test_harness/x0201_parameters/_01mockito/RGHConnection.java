@@ -10,6 +10,7 @@ public class RGHConnection {
     public void disconnect(){}
 
     public ACTIOReport ACTIOReportFor(int customerID){
+        //connect to remote server to get report
         return new ACTIOReport();
     }
 

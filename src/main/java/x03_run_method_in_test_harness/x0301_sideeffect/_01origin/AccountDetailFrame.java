@@ -9,7 +9,7 @@ public class AccountDetailFrame extends Frame{
     public AccountDetailFrame() {
     }
 
-    public void actionPerformed(ActionEvent event){
+    public void performAction(ActionEvent event){
         String source = event.getActionCommand();
         if(source.equals("project activity")){
             DetailFrame detailDisplay = new DetailFrame();
