@@ -1,8 +1,8 @@
-package x02_put_class_int_test_harness.x0201_parameters.origin;
+package x02_put_class_int_test_harness.x0201_parameters._03fakeobject;
 
 import org.junit.jupiter.api.Test;
 
-import x02_put_class_in_test_harness.x0201_parameters._02fakeobject.*;
+import x02_put_class_in_test_harness.x0201_parameters._03fakeobject.*;
 
 
 public class CreditValidatorTest {
@@ -21,6 +21,8 @@ class FakeConnection implements RGHConnection{
     public FakeConnection() {
         this.connection = new RGHConnectionImpl(8080, "tcp", "pass");
     }
+
+
 
     @Override
     public void connect() {

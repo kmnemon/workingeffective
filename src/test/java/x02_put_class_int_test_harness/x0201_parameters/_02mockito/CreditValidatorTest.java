@@ -1,10 +1,10 @@
-package x02_put_class_int_test_harness.x0201_parameters.mockito;
+package x02_put_class_int_test_harness.x0201_parameters._02mockito;
 
 import org.junit.jupiter.api.Test;
-import x02_put_class_in_test_harness.x0201_parameters._01mockito.ACTIOReport;
-import x02_put_class_in_test_harness.x0201_parameters._01mockito.CreditMaster;
-import x02_put_class_in_test_harness.x0201_parameters._01mockito.CreditValidator;
-import x02_put_class_in_test_harness.x0201_parameters._01mockito.RGHConnection;
+import x02_put_class_in_test_harness.x0201_parameters._01origin.ACTIOReport;
+import x02_put_class_in_test_harness.x0201_parameters._01origin.CreditMaster;
+import x02_put_class_in_test_harness.x0201_parameters._01origin.CreditValidator;
+import x02_put_class_in_test_harness.x0201_parameters._01origin.RGHConnection;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
